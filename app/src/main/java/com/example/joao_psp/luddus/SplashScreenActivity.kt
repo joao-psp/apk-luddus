@@ -16,7 +16,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         val handler = Handler()
-        handler.postDelayed({ showMainLuddus() }, 3000)
+        handler.postDelayed({ showMainLuddus() }, 2000)
     }
 
     private fun showMainLuddus() {
