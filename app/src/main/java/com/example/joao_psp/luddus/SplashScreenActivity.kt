@@ -21,7 +21,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
     private fun showMainLuddus() {
         val intent = Intent(
-            this, MainLuddus::class.java
+            this, LoginActivity::class.java
         )
         startActivity(intent)
         finish()

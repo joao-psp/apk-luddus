@@ -18,13 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
-
-        <activity android:name=".MainLuddus"
-
-        />
-
-
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".WelcometoLuddusActivity">
+        </activity>
+        <activity android:name=".MainLuddusActivity">
+        </activity>
     </application>
 
 </manifest>
